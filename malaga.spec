@@ -1,6 +1,6 @@
 Name:           malaga
 Version:        7.12 
-Release:        14%{?dist}
+Release:        16%{?dist}
 Summary:        A programming language for automatic language analysis
 
 Group:          Development/Languages
@@ -119,6 +119,12 @@ fi
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 7.12-16
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 7.12-15
+- Mass rebuild 2013-12-27
+
 * Sun Apr 14 2013 Ville-Pekka Vainio <vpvainio@iki.fi> - 7.12-14
 - Add aarch64 patch from rhbz #926118
 
